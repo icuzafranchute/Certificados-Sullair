@@ -1,13 +1,13 @@
-# 📄 Generador Universal de Certificados — Sullair Argentina
+# 📄 Generador de Certificados — Sullair Argentina
 
-App web para generar automáticamente certificados de servicio a partir del listado mensual de vouchers. Pensada para ser usada por todas las sucursales de Sullair Argentina.
+App web para generar automáticamente certificados de servicio a partir del listado mensual de vouchers. Pensada para ser usada por todas las sucursales de Sullair.
 
 ---
 
 ## 🚀 ¿Qué hace?
 
 - Lee el **Excel de vouchers** que llega mensualmente de facturación
-- Genera un **archivo Excel** con un certificado por hoja, fiel al modelo oficial de Sullair
+- Genera un **archivo Excel** con un certificado por hoja, fiel al modelo de Sullair
 - Clasifica automáticamente el tipo de equipo (Generador, Compresor, Plataforma, Manipulador, Luminaria)
 - Nombra el archivo como: `Certificación - CLIENTE - Período.xlsx`
 - Permite que cada sucursal genere sus propios certificados desde cualquier navegador
@@ -116,4 +116,4 @@ streamlit run app.py
 
 ---
 
-*Sullair Argentina S.A. · Generador Universal de Certificados · v4.0*
+*Sullair Argentina S.A. · Generador de Certificados · v4.0*
